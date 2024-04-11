@@ -1,7 +1,6 @@
 package com.javatar.spring.security.login.models;
 
 import jakarta.persistence.*;
-
 @Entity
 @Table(name = "roles")
 public class Role {
