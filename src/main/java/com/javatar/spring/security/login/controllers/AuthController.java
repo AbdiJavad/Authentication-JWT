@@ -32,7 +32,6 @@ import java.util.stream.Collectors;
 public class AuthController {
   @Autowired
   AuthenticationManager authenticationManager;
-
   @Autowired
   UserRepository userRepository;
 
