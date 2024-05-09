@@ -16,7 +16,6 @@ import java.util.Set;
         })
 
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -36,7 +35,7 @@ public class User {
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))
 
-    
+
     private Set<Role> roles = new HashSet<>();
 
     public User() {
