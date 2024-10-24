@@ -1,5 +1,6 @@
 package com.javatar.spring.security.login.data.request;
 
+
 import jakarta.validation.constraints.NotBlank;
 
 public class LoginRequest {
