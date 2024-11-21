@@ -31,6 +31,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
+    
     @Autowired
     AuthenticationManager authenticationManager;
     @Autowired
