@@ -1,6 +1,5 @@
 package com.javatar.spring.security.login.controllers;
 
-
 import com.javatar.spring.security.login.models.ERole;
 import com.javatar.spring.security.login.models.Role;
 import com.javatar.spring.security.login.models.User;
@@ -31,7 +30,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
-    
+
     @Autowired
     AuthenticationManager authenticationManager;
     @Autowired
